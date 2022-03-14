@@ -1,0 +1,52 @@
+body{
+    background-color: yellow;
+}
+
+.heading{
+    text-align: center;
+}
+.item{
+    margin-left: 650px;
+    margin-top: 15px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+    transition-duration: 2s;
+}
+
+.box1:hover{
+    width: 300px;
+}
+
+.box2:hover{
+    height: 300px;
+    width: 300px;
+}
+.box3:hover{
+    width: 300px;
+}
+.box4:hover{
+    width: 300px;
+    transition-timing-function: ease;
+}
+.box5:hover{
+    width: 300px;
+    transition-timing-function: ease-in;
+}
+.box6:hover{
+    width: 300px;
+    transition-timing-function: ease-out;
+}
+.box7:hover{
+    width: 300px;
+    transition-timing-function: ease-in-out;
+}
+.item1{
+    text-decoration: underline;
+    text-align: center;
+    color: brown;
+}
